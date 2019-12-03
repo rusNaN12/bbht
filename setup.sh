@@ -9,5 +9,5 @@ echo "make user {$1} sudo"
 usermod -aG sudo $1 
 
 cp -r ~/.ssh /home/$1
-chown -R sammy:sammy /home/$1/.ssh
+chown -R $1:$1 /home/$1/.ssh
 
