@@ -168,6 +168,10 @@ echo "installing unfurl"
 go get -u github.com/tomnomnom/unfurl 
 echo "done"
 
+echo "installing gobuster"
+go get github.com/OJ/gobuster
+echo "done"
+
 echo "installing waybackurls"
 go get github.com/tomnomnom/waybackurls
 echo "done"
