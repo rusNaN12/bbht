@@ -18,11 +18,11 @@ sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
 
-echo "installing bash_profile aliases from recon_profile"
-git clone https://github.com/nahamsec/recon_profile.git
-cd recon_profile
-cat bash_profile >> ~/.bash_profile
-source ~/.bash_profile
+#echo "installing bash_profile aliases from recon_profile"
+#git clone https://github.com/nahamsec/recon_profile.git
+#cd recon_profile
+#cat bash_profile >> ~/.bash_profile
+#source ~/.bash_profile
 cd ~/tools/
 echo "done"
 
@@ -174,6 +174,10 @@ echo "done"
 
 echo "installing waybackurls"
 go get github.com/tomnomnom/waybackurls
+echo "done"
+
+echo "installing assetfinder"
+go get -u github.com/tomnomnom/assetfinder
 echo "done"
 
 echo "installing crtndstry"
