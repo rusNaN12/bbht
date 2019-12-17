@@ -104,9 +104,11 @@ echo "done"
 
 
 echo "installing wpscan"
-git clone https://github.com/wpscanteam/wpscan.git
-cd wpscan*
-sudo gem install bundler && bundle install --without test
+#git clone https://github.com/wpscanteam/wpscan.git
+#cd wpscan*
+#sudo gem install bundler && bundle install --without test
+gem install wpscan
+wpscan --update
 cd ~/tools/
 echo "done"
 
