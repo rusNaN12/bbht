@@ -182,6 +182,10 @@ echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
 echo "done"
 
+echo "install ffuf"
+go get github.com/ffuf/ffuf
+echo "done"
+
 echo "installing crtndstry"
 git clone https://github.com/nahamsec/crtndstry.git
 echo "done"
